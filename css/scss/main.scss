@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+$black: #000;
+$white: #fff;
+$blue:#cae8e3;
+$pink:#f6e4d5;
+$yellow:#ffd080;
+$border:.2rem solid $black;
+
+@import url(functions/_mixin.sass);
+@import url(tags/_elements.sass);
